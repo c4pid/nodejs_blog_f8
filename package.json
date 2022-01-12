@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch blog/index.js --watch blog",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c4pid/nodejs_blog_f8.git"
+  },
+  "keywords": [
+    "nodejs",
+    "f8",
+    "lear",
+    "nodeJS"
+  ],
+  "author": "Vinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c4pid/nodejs_blog_f8/issues"
+  },
+  "homepage": "https://github.com/c4pid/nodejs_blog_f8#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
